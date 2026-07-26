@@ -5,29 +5,29 @@ class Cart extends ChangeNotifier {
   // list of shoes for sale
   List<Shoe> shoeShop = [
     Shoe(
-      name: 'Zoom FREAK',
-      price: '236',
-      imagePath: 'lib/images/zoom_freak.jpg',
-      description: 'The forward-thinking design of his latest signature shoe.',
-    ),
-    Shoe(
       name: 'Air Jordan',
       price: '220',
-      imagePath: 'lib/images/air_jordan.jpg',
+      imagePath: 'lib/images/air_jordan.png',
       description:
           'You\'ve got the hops and the speed-lace up in shoes that enhance what you bring to the court.',
     ),
     Shoe(
+      name: 'Zoom FREAK',
+      price: '236',
+      imagePath: 'lib/images/zoom_freak.png',
+      description: 'The forward-thinking design of his latest signature shoe.',
+    ),
+    Shoe(
       name: 'KD Treys',
       price: '240',
-      imagePath: 'lib/images/kd_treys.jpg',
+      imagePath: 'lib/images/kd_treys.png',
       description:
           'A secure midfoot strap is suited for scoring binges and defensive lockdown.',
     ),
     Shoe(
       name: 'Kyrie 6',
       price: '190',
-      imagePath: 'lib/images/kyrie_6.jpg',
+      imagePath: 'lib/images/kyrie_6.png',
       description:
           'Bouncy cushioning is paired with soft yet supportive foam for responsive comfort and energy return with every step.',
     ),
@@ -42,7 +42,7 @@ class Cart extends ChangeNotifier {
   }
 
   // get cart
-  List<Shoe> getCart() {
+  List<Shoe> getUserCart() {
     return userCart;
   }
 
