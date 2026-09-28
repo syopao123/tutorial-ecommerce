@@ -4,6 +4,13 @@ A simple e-commerce mobile app UI from the tutorial made by Mitch Koko.
 
 ## Screenshots
 
-![Shop Page](./screenshots/shop.png)
-
-![Cart Page](./screenshots/cart.png)
+<table>
+<tr>
+    <td>
+        <img src='./screenshots/shop.png' alt='Shop'/>
+    </td>
+    <td>
+        <img src='./screenshots/cart.png' alt='Cart'/>
+    </td>
+</tr>
+</table>
